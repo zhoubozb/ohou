@@ -3,8 +3,13 @@ package com.atguigu.shshu;
 import java.io.InputStream;
 import java.util.Properties;
 
+
 public class Test {
     private static Properties pro ;
+
+
+
+
     public static void  main(String [] args){
         Test.readprop();
         String port = pro.getProperty("server.port");
